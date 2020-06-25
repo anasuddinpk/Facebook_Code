@@ -1,0 +1,352 @@
+#header{
+    
+    background-color:#375794;
+    height: 80px;
+    width: auto;
+    margin: -8px;
+    padding: 0;
+
+}
+#facebook{
+    background-color: #395794;
+    height: 55px;
+    width: 255px;
+    position: fixed;
+    left: 22%;
+    top: 1%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+
+}
+#signin{
+    background-color: #395794;
+    height: 70px;
+    width: 400px;
+    position: fixed;
+    left: 55.5%;
+    top: 0.5%;
+    
+}
+#fblogo{
+    width: 155px;
+    outline: 0;
+}
+#email{
+    display: inline-block;
+    padding-right: 10px;
+    padding-top: 10px;
+
+}
+#password{
+    display: inline-block;
+    align-items: center;
+    padding-right: 10px;
+    padding-top: 10px;
+
+
+}
+#loginbuttondiv{
+    display: inline-block;
+}
+#loginbutton{
+    background-color: #4062a7;
+    color: white;
+    border: 1px solid #203153;
+    height: 22px;
+    border-radius: 2px;
+    outline: 0;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+}
+#loginbutton:hover{
+    background-color: #355188;
+
+}
+#emailbox{
+    border: 1px solid black;
+    height: 18px;
+    outline: 0;
+}
+#passwordbox{
+    border: 1px solid black;
+    height: 18px;
+    outline: 0;
+
+}
+#emaillabel{
+    margin-top: 1px;
+    color: #e6edfc;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    margin-bottom: 3px;
+}
+#passwordlabel{ 
+    margin-top: 1px;
+    color: #e6edfc;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    margin-bottom: 3px;
+
+}
+#forgotten{
+    background-color: #395794;
+    height: 13px;
+    width: 120px;
+    position: relative;
+    left: 161px;
+    top: 1px;
+}
+#forgottenacount{
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #98a9cc;
+    text-decoration: none;
+
+}
+#forgottenacount:hover{
+    text-decoration: underline;
+}
+#middle{
+    width: auto;
+    height: 585px;
+    background-color: rgb(200, 211, 226);
+    margin: -8px;
+    margin-top: 8px;
+    background-image: linear-gradient(to bottom, #fdfefe 0%, #d4d9e9 100%);
+
+}
+#description{
+    display: inline-block;
+    height: 270px;
+    width: 540px;
+    position: fixed;
+    left: 24%;
+    top: 12%;
+}
+#descriptionimage{
+    position: fixed;
+    bottom: 61.25%;
+    left: 24%;
+}
+#descriptiontext{
+    font-family: Arial, Helvetica, sans-serif;
+    color:  #213153;
+    font-size: 21px;
+    font-weight: bold;
+    position: relative;
+    bottom: 10px;
+
+}
+#form{
+    display: inline-block;
+    height: 550px;
+    width: 430px;
+    position: fixed;
+    left: 54.5%;
+    top: 10%;
+} 
+#fname{
+    margin: 4.5px;
+    display: inline-block;
+    height: 31px;
+    width: 176.5px;
+    border: 1px solid rgb(167, 164, 164);
+    border-radius: 4px;
+    outline: 0;
+    padding-left: 9px;
+
+}   
+#lname{
+    margin: 4.5px;
+    display: inline-block;
+    height: 31px;
+    width: 176.5px;
+    border-radius: 4px;
+    border: 1px solid rgb(167, 164, 164);
+    outline: 0;
+    padding-left: 9px;
+
+}
+#femail{
+    margin: 4.5px;
+    height: 31px;
+    width: 379px;
+    border-radius: 4px;
+    border: 1px solid rgb(167, 164, 164);
+    outline: 0;
+    padding-left: 9px;
+
+
+}
+#fpassword{
+    margin: 4.5px;
+    height: 31px;
+    width: 379px;
+    border-radius: 4px;
+    border: 1px solid rgb(167, 164, 164);
+    outline: 0;
+    padding-left: 9px;
+
+    
+}
+input::placeholder{
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(153, 153, 153);
+    margin-top: 5px;
+}
+#upper{
+    position: fixed;
+    left: 1041px;
+    top: 200px;
+}
+#formheader1{
+    font-size: 34px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    font-weight: bold;
+    padding: 8px;
+    padding-left: 21px;
+    padding-top: 20px;
+    position: fixed;
+    left: 1025px;
+}
+#formheader2{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 8px;
+    padding-top: 0px;
+    padding-left: 21px;
+    color: rgb(44, 44, 44);
+    position: fixed;
+    left: 1025px;
+    top: 163px;
+}
+#birthday{
+    position: fixed;
+    left: 1047px;
+    top: 325px;
+}
+#birthdayheaderdiv{
+    margin-top: 20px;
+    margin-bottom: -7px;
+}
+
+#birthdayheader{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: rgb(134, 134, 134);
+}
+#day{
+    width: 60px;
+    height: 29px;
+    border-radius: 0;
+    border-color: rgb(175, 175, 175);
+    margin: -1.5px;
+}
+#month{
+    width: 60px;
+    height: 29px;
+    border-radius: 0;
+    border-color: rgb(175, 175, 175);
+    margin: -1.5px;
+
+
+}
+#year{
+    width: 60px;
+    height: 29px;
+    border-radius: 0;
+    border-color: rgb(175, 175, 175);
+    margin: -1.5px;
+
+
+}
+#gender{
+    position: fixed;
+    left: 1047px;
+    top: 395px;
+
+}
+#genderheaderdiv{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: rgb(134, 134, 134);
+    margin-top: 20px;
+    margin-bottom: -7px;
+}
+#labelmale, #labelfemale, #labelcustom{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: rgb(39, 39, 39);
+    position: sticky;
+    top: 50%;
+}
+#footer1{
+    position: fixed;
+    width: 320px;
+    left: 1047px;
+    top: 460px;
+    color: rgb(134, 134, 134);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11.2px;
+    padding-top: 7px;
+
+}
+
+#a1, #a2, #a3{
+    text-decoration:none ;
+    color: #395794;
+}
+#a1:hover, #a2:hover, #a3:hover{
+    text-decoration: underline;
+}
+#signup{
+    position: fixed;
+    left: 1047px;
+    top: 530px;
+}
+#signupbutton{
+    width: 190px;
+    height: 38px;
+    border: 1px solid #395e2d;
+    border-radius: 4px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    outline: 0;
+    border-style: outset;
+    box-shadow: inset 0.5px 1.5px 1.5px #a2ca80;
+    background-image: linear-gradient(to bottom, #6aaf55 0%, #598d45 100%);
+}
+#signupbutton:hover{
+    cursor: pointer;
+    background-image: linear-gradient(to bottom, #72b65d 20%, #598d45 100%);
+}
+#signuplabel{
+    margin: 0;    
+    color: white;
+    text-shadow: 0.5px 1px 1.5px rgb(56, 56, 56);
+    
+}
+#footer2{
+    position: fixed;
+    left: 1047px;
+    top: 590px;
+    color: rgb(102, 102, 102);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+#a4{
+    text-decoration:none ;
+    color: #395794;
+
+}
+#a4:hover{
+    text-decoration: underline;
+}
